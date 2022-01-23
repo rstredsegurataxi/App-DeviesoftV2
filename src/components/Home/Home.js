@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import '../../../src/styles.css'
 import './home.css'
+import './fuente/style.css'
 
 const Home = () => {
     return <div id="page-top">
@@ -60,7 +61,7 @@ const Home = () => {
 
         
 
-    </div>;
+    </div>
 };
 
 export default Home;
