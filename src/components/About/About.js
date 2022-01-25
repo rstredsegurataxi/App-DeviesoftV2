@@ -1,28 +1,43 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import logo from './logo.jpg'
+import Fondo from '../Contact/fondo/Fondo';
+import './about.css'
 
 const About = () => {
-  return <div>
-    <img  src={logo} style={{width:'50%'}} />
-      <section class="info page-section mt-5" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center align-items-center">
-                    <div class="col-lg-8 text-center ">
-                        <h2 class="text-black mb-5">Nosotros</h2>
-                        <Link to="/contacto" class="cta">
-                            <span>Comenzar</span>
-                            <svg width="13px" height="10px" viewBox="0 0 13 10">
-                                <path d="M1,5 L11,5"></path>
-                                <polyline points="8 1 12 5 8 9"></polyline>
-                            </svg>
-                        </Link>
-                    </div>                    
-                </div>             
+    return <div id="page-top">
+        <Fondo/>
+        <section className="nosotros page-section">
+            <div className="container px4 px-lg-5">
+                <h2 class="text-center mt-0">Nuestra Historia</h2>
+                <div class="box row gx-4 gx-lg-5 mb-4 py-5 px-3 align-items-center">
+                    <div class="col-lg-4 col-md-12 text-center">
+                        <div class="">
+                            <h3 class="h4 mb-2">Consultoría</h3>
+                            <p class="text-muted-75 mb-2">Enmarcados siempre en el cumplimiento de la Reglamentación Aeronáutica
+                                Colombiana y de la Organización de Aviación Civil Internacional.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box row gx-4 gx-lg-5 mb-4 py-5 px-3 align-items-center">
+                    <div class="col-lg-4 col-md-12 text-center">
+                        <div class="">
+                            <h3 class="h4 mb-2">Consultoría</h3>
+                            <p class="text-muted-75 mb-2">Enmarcados siempre en el cumplimiento de la Reglamentación Aeronáutica
+                                Colombiana y de la Organización de Aviación Civil Internacional.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box row gx-4 gx-lg-5 mb-4 py-5 px-3 align-items-center">
+                    <div class="col-lg-4 col-md-12 text-center">
+                        <div class="">
+                            <h3 class="h4 mb-2">Consultoría</h3>
+                            <p class="text-muted-75 mb-2">Enmarcados siempre en el cumplimiento de la Reglamentación Aeronáutica
+                                Colombiana y de la Organización de Aviación Civil Internacional.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-  </div>;
+    </div>
 };
-
 export default About;
 

@@ -1,26 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import './contact.css'
+import Fondo from './fondo/Fondo';
 
 
 const Contact = () => {
-  return <div>
-<section class="info page-section mt-5" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center align-items-center">
-                    <div class="col-lg-8 text-center ">
-                        <h2 class="text-black mb-5">Contacto</h2>
-                        <Link to="/contacto" class="cta">
-                            <span>Comenzar</span>
-                            <svg width="13px" height="10px" viewBox="0 0 13 10">
-                                <path d="M1,5 L11,5"></path>
-                                <polyline points="8 1 12 5 8 9"></polyline>
-                            </svg>
-                        </Link>
-                    </div>                    
-                </div>             
+  return <div className="contacto container-fluid">
+        <div className="row ">
+            <div className="col gx-0">
+            <Fondo className=""/>
             </div>
-        </section>
-  </div>;
+        </div>
+        
+       
+  </div>
 };
 
 export default Contact;
