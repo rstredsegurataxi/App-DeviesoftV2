@@ -4,6 +4,7 @@ import '../../../src/styles.css'
 import './home.css'
 import './fuente/style.css'
 
+
 const Home = () => {
     return <div id="page-top">
         <header class="masthead">
@@ -44,7 +45,7 @@ const Home = () => {
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center align-items-center">
                     <div class="col-lg-8 text-center ">
-                        <h2 class="text-black mb-5">Con nuestra ayuda cumpliras tus sueños</h2>
+                        <h2 class="text-black mb-5">Piénsalo, suéñalo y construyamos algo único.</h2>
                         <Link to="/contacto" class="cta">
                             <span>Comenzar</span>
                             <svg width="13px" height="10px" viewBox="0 0 13 10">
@@ -55,12 +56,7 @@ const Home = () => {
                     </div>                    
                 </div>             
             </div>
-        </section>
-
-       
-
-        
-
+        </section>    
     </div>
 };
 
