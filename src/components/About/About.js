@@ -13,7 +13,8 @@ const About = () => {
                         <div class="card" >
                             {/* <img src={hands} class="card-img-top cardwith" alt="..."/> */}
                             <div class="card-body">
-                               <p><strong>Deviesoft</strong>, Somos una compañía creada por amigos con un fin en común,
+                               <p><strong>Deviesoft</strong>, Somos una compañía de Desarrollo de Software
+                               creada por amigos, con un fin en común,
                                lograr solucionar las problemáticas del día a día respaldados con la tecnología, 
                                actualmente estamos enfocados en las problemáticas de las medianas y pequeñas empresas, ayudandolas 
                                para que logren llegar al mercado compitiendo mano a mano con empresas de alto calibre y experiencia.
