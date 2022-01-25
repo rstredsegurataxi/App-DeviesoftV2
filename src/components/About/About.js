@@ -1,5 +1,5 @@
 import React from 'react';
-// import hands from '../../imgs/favicon.ico'
+import hands from '../../imgs/Captura.PNG'
 
 const About = () => {
   return <div>
@@ -15,8 +15,8 @@ const About = () => {
                             <div class="card-body">
                                <p><strong>Deviesoft</strong>, Somos una compañía creada por amigos con un fin en común,
                                lograr solucionar las problemáticas del día a día respaldados con la tecnología, 
-                               actualmente estamos enfocados en las problemáticas de las medianas y pequeñas empresas, para 
-                               que logren llegar al mercado y competir mano a mano con empresas de alto calibre y experiencia.
+                               actualmente estamos enfocados en las problemáticas de las medianas y pequeñas empresas, ayudandolas 
+                               para que logren llegar al mercado compitiendo mano a mano con empresas de alto calibre y experiencia.
                               </p>
                             </div>
                         </div>
