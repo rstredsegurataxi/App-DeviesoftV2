@@ -1,17 +1,57 @@
 .nosotros{
-    background-color: #eee;
-    margin-top: 98px;
+  margin-top: 98px;
+}
+
+.infoo{
+  background: linear-gradient(60deg, rgb(32, 128, 186) 0%, rgba(32,128,186,1) 100%);
+    
 }
 
 .box{    
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.3s;
-    background-color: #eee;
+    background-color: white;
+  
   }
   
   .box:hover{
-    box-shadow: 2px 8px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 2px 8px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
     cursor: pointer;
   }
   
+  .imagenservicios{
+    height: 240px;
+    width: 100%;
+   border-radius: 5px;
+  }
+
+  .wrapper {
+    height: 20vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
