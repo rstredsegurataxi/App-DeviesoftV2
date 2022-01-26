@@ -10,7 +10,7 @@ const Home = () => {
         <header className="masthead">
             <div className="container px-4 px-lg-5 h-100">
                 <div className="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div className="col-lg-8 align-self-center">
+                    <div className="col-lg-12 align-self-center">
                         <h1 className="titulo text-white font-weight-bol ">DeVieSoft</h1>
                         <h3 className="span loader">
                             <span className='m'>D</span>
