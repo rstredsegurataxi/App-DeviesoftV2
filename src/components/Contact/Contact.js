@@ -7,21 +7,23 @@ const Contact = () => {
       <div className="col  gx-0">
         <div className="header">
           <div className="inner-header flex">
-            <h2 >Nos encantaria atender tus solicitudes, escríbenos para responderte lo más pronto posible.</h2>
-            <div className="col-lg-3 col-md-6 text-center">
-              <div className="mt-5">
-                <a className="mensaje text-decoration-none text-dark" href="https://wa.me/573203934252/?text=Hola, me podrian brindar más información" target="_blank">
-                  <div className="mb-2"><img src="https://img.icons8.com/fluency/96/000000/whatsapp.png" /></div>
-                  <h3 className="h4 mb-2">Envianos un mensaje</h3>
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 text-center">
-              <div className="mt-5 text-dark">
-                <div className="mb-2"><img src="https://img.icons8.com/fluency/96/000000/shared-mail.png" /></div>
-                <h3 className="h4 mb-2">Correo Ejecutivo</h3>
 
+            <div className='row'>
+
+              <div className="col-sm"> 
+                  <h2 >Nos encantaria atender tus solicitudes, escríbenos para responderte lo más pronto posible.</h2>
               </div>
+              <div className="col-sm"> 
+                  <a className="mensaje text-decoration-none text-white" href="https://wa.me/573203934252/?text=Hola, me podrian brindar más información" target="_blank">
+                     <div className="mb-2"><img src="https://img.icons8.com/fluency/96/000000/whatsapp.png" /></div>
+                     <h3 className="h4 mb-2">Envianos un mensaje</h3>
+                  </a>
+              </div>
+              <div className="col-sm"> 
+                  <div className="mb-2"><img src="https://img.icons8.com/fluency/96/000000/shared-mail.png" /></div>
+                  <h3 className="h4 mb-2">Correo Ejecutivo</h3>
+              </div>
+
             </div>
 
           </div>
